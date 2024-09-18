@@ -37,16 +37,17 @@ body {
 }
 
 .content {
-  max-width: 790px;
+  max-width: 1000px;
   margin: 100px auto 50px;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .card {
-  width: 350px;
-  margin-bottom: 60px;
+  width: 490px;
+  min-height: 440px;
   padding: 45px 45px 70px;
   background-color: rgb(255, 255, 255);
 }
@@ -54,8 +55,11 @@ body {
 .card-title {
   font-size: 24px;
   font-family: "Permanent Marker", cursive;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: -0.16px;
   margin-bottom: 10px;
-  color: #000000;
+  color: #151515;
 }
 
 .card-text {
@@ -64,9 +68,12 @@ body {
 }
 
 .card-image {
-  width: 250px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
   height:200px;
-  margin-bottom: 25px;
+  margin: 0 auto 25px auto;
+ 
  
 }
 
