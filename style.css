@@ -39,7 +39,6 @@ body {
 .content {
   max-width: 790px;
   margin: 100px auto 50px;
-  background-color: #0ABFBC;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -49,24 +48,24 @@ body {
   width: 350px;
   margin-bottom: 60px;
   padding: 45px 45px 70px;
-  box-shadow: 4px 4px 5px rgb(255, 242, 144);
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(255, 255, 255);
 }
 
 .card-title {
   font-size: 24px;
   font-family: "Permanent Marker", cursive;
   margin-bottom: 10px;
-  color: #eeeaea;
+  color: #000000;
 }
 
 .card-text {
   font-size: 16px;
-  color: #eeeaea;
+  color: #000000;
 }
 
 .card-image {
-  width: 100%;
+  width: 250px;
+  height:200px;
   margin-bottom: 25px;
  
 }
