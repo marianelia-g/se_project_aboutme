@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  background-image: url(./images/forest-indigo.avif );
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -39,6 +38,7 @@ body {
   text-align: center;
   align-content: center;
   color: rgb(255, 255, 255);
+  z-index: 10000;
 }
 
 .maintenance-text {
@@ -51,6 +51,7 @@ body {
   text-align: center;
   font-weight: 500;
   color: #ffffff;
+  z-index: 10000;
 
 }
 
