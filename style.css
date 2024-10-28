@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  background-image: url(../images/kevin-fitzgerald-8ji8O5uHE1U-unsplash.jpg);
+  background-image: url(../images/kevin-fitzgerald.jpg);
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -32,24 +32,26 @@ body {
 .maintenance-title {
   position: relative;
   max-width: 500px;
-  height: 150px;
+  height: 100px;
   margin: auto auto 0 auto;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   align-content: center;
-  color: rgb(20, 32, 33);
+  color: rgb(255, 255, 255);
 }
 
 .maintenance-text {
   position: relative;
   margin: 0 auto auto auto;
   max-width: 500px;
-  height: 150px;
+  height: 50px;
   font-size: 20px;
   align-content: center;
   text-align: center;
   font-weight: 400;
+  color: #ffffff;
+
 }
 
 
