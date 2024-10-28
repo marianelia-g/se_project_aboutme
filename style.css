@@ -7,21 +7,62 @@ body, h1, h2, h3, h4, p, a {
 }
 
 body {
-  font-family:'Palatino', serif; 
+  margin:auto;
+  font-family:Georgia, 'Times New Roman', Times, serif, serif; 
   background-color: #000000;
+
+}
+.maintenance {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-image: url(../images/kevin-fitzgerald-8ji8O5uHE1U-unsplash.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+ 
 }
 
+.maintenance-title {
+  position: relative;
+  max-width: 500px;
+  height: 150px;
+  margin: auto auto 0 auto;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+  color: rgb(20, 32, 33);
+}
+
+.maintenance-text {
+  position: relative;
+  margin: 0 auto auto auto;
+  max-width: 500px;
+  height: 150px;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+  font-weight: 400;
+}
+
+
 .header {
-  
+
   height: 100vh;
-  background-image: url(images/lofi-anime-girl-studying.png);
+  background-image: url(../images/bailey-alexander-Cka9FLcS848-unsplash.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
 .header-title {
-  font-family: "Permanent Marker" , cursive;
   font-size: 140px;
   line-height: 140px;
   color:rgb(255, 255, 255);
@@ -55,7 +96,6 @@ body {
 
 .card-title {
   font-size: 24px;
-  font-family: "Permanent Marker", cursive;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: -0.16px;
@@ -75,6 +115,14 @@ body {
   height:200px;
   margin: 0 auto 25px auto;
  
+ 
+}
+.maintenace {
+  height: 100%;
+}
+
+.maintenance-img {
+  width: 1280px;
  
 }
 
