@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  background-image: url(../images/jeremy-perkins.jpg);
+  background-image: url(./images/forest-indigo.avif );
   height: 100%;
   background-size: cover;
   background-position: center;
